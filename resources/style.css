@@ -15,9 +15,77 @@
   display: inline-flex;
   margin-left: 25px;
   margin-bottom: 10px;
+
 }
+
+
 .nav h4{
 display: inline-block;
 align-content: flex-end;
 margin-right: 25px;
+}
+
+/* Main Content */
+.logo{
+  border: solid black .5px;
+}
+
+.column.large{
+  display: flex;
+  width: 360px;
+}
+
+.column.medium{
+  display: flex;
+  width: 300px;
+}
+.medium
+.small
+.large{
+  display: flex;
+  flex-direction: row;
+}
+.column.small{
+  display: flex;
+  width: 240px;
+}
+
+.main{
+  display: inline-flex;
+  border: solid black .5px;
+}
+
+.valley{
+  border: solid black .5px;
+}
+
+.orca{
+  border: solid black .5px;
+}
+
+.earth{
+  border: solid black .5px;
+
+}
+
+.burger{
+  border: solid black .5px;
+}
+
+.memory{
+  border: solid black .5px;
+}
+
+.FBI{
+  border: solid black .5px;
+}
+
+.cats{
+  border: solid black .5px;
+
+}
+
+.bites{
+  border: solid black .5px;
+
 }
