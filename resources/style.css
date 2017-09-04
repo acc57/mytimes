@@ -30,24 +30,45 @@ margin-right: 25px;
   border: solid black .5px;
 }
 
+.column{
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  border: solid black .5px;
+  align-items: stretch;
+
+}
 .column.large{
-  display: flex;
-  width: 360px;
+  display: inline-flex;
 }
 
 .column.medium{
-  display: flex;
+  display: inline-flex;
+  margin-left: 25px;
+}
+
+.column.small{
+  display: inline-flex;
+  margin-left: 25px;
+}
+
+.small{
+  margin-left: 25px;
+  border: solid black .5px;
+  width: 240px;
+}
+
+.medium{
+  margin-left: 25px;
+  border: solid black .5px;
+  align-items: stretch;
   width: 300px;
 }
-.medium
-.small
+
 .large{
-  display: flex;
-  flex-direction: row;
-}
-.column.small{
-  display: flex;
-  width: 240px;
+  width: 630px;
 }
 
 .main{
@@ -55,6 +76,10 @@ margin-right: 25px;
   border: solid black .5px;
 }
 
+.phish{
+  border: solid black .5px;
+
+}
 .valley{
   border: solid black .5px;
 }
@@ -85,7 +110,12 @@ margin-right: 25px;
 
 }
 
+.cookie{
+  border: solid black .5px;
+}
 .bites{
   border: solid black .5px;
-
+}
+.box{
+  border: solid black .5px;
 }
