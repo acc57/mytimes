@@ -85,9 +85,12 @@ margin-right: 25px;
 .phish p{
   display: flex;
   font-family: Georgia;
- font-weight: bold;
- font-size: 40px;
- color: white;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 260px;
+  text-align: left;
+  margin-top: 0;
 }
 
 .valley{
@@ -110,6 +113,7 @@ margin-right: 25px;
   display: flex;
   background-image: url("images/img-story-2.png");
   border: solid black .5px;
+  text-align: center;
 
 }
 
@@ -118,7 +122,10 @@ margin-right: 25px;
  font-weight: bold;
  font-size: 30px;
  color: white;
-
+ height: 240px;
+ margin-top: 0;
+ text-align: center;
+ width: 100%;
 }
 
 .burger{
@@ -133,11 +140,17 @@ margin-right: 25px;
 .memory{
   border: solid black .5px;
   background-image: url("images/img-story-3.png");
-  font-family: Georgia;
+}
+
+.memory p{
+font-family: Georgia;
  font-weight: bold;
  font-size: 30px;
  color: white;
-display: flex;
+ height: 280px;
+ margin-top: 0;
+ text-align: center;
+ width: 95%;
 }
 
 .FBI{
@@ -159,10 +172,15 @@ display: flex;
 .cats{
   border: solid black .5px;
   background-image: url("images/img-story-1.png");
-  font-family: Georgia;
+}
+.cats p{
+font-family: Georgia;
  font-weight: bold;
  font-size: 30px;
  color: white;
+ height: 240px;
+ margin-top: 0;
+ text-align: center;
 }
 
 
