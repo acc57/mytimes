@@ -27,7 +27,7 @@ margin-right: 25px;
 
 /* Main Content */
 .logo{
-  border: solid black .5px;
+
 }
 
 .column{
@@ -36,7 +36,6 @@ margin-right: 25px;
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 25px;
-  border: solid black .5px;
   align-items: stretch;
 
 }
@@ -56,13 +55,11 @@ margin-right: 25px;
 
 .small{
   margin-left: 25px;
-  border: solid black .5px;
   width: 240px;
 }
 
 .medium{
   margin-left: 25px;
-  border: solid black .5px;
   align-items: stretch;
   width: 300px;
 }
@@ -73,11 +70,11 @@ margin-right: 25px;
 
 .main{
   display: inline-flex;
-  border: solid black .5px;
+
 }
 
 .phish{
-  border: solid black .5px;
+
   display: flex;
   background-image: url("images/img-story-main.png");
 }
@@ -94,14 +91,15 @@ margin-right: 25px;
 }
 
 .valley{
-  border: solid black .5px;
+
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 
 .orca{
-  border: solid black .5px;
+margin-top: 15px;
+margin-bottom: 30px;
 }
 
 .orca p{
@@ -112,7 +110,7 @@ margin-right: 25px;
 .earth{
   display: flex;
   background-image: url("images/img-story-2.png");
-  border: solid black .5px;
+  margin-top: 15px;
   text-align: center;
 
 }
@@ -122,14 +120,16 @@ margin-right: 25px;
  font-weight: bold;
  font-size: 30px;
  color: white;
- height: 240px;
+ height: 270px;
+ width: 300px;
  margin-top: 0;
  text-align: center;
  width: 100%;
 }
 
 .burger{
-  border: solid black .5px;
+margin-top: 15px;
+margin-bottom: 30px;
 }
 
 .burger p{
@@ -138,8 +138,8 @@ margin-right: 25px;
   color: black;
 }
 .memory{
-  border: solid black .5px;
   background-image: url("images/img-story-3.png");
+  margin-top: 15px;
 }
 
 .memory p{
@@ -147,14 +147,15 @@ font-family: Georgia;
  font-weight: bold;
  font-size: 30px;
  color: white;
- height: 280px;
+ height: 270px;
+ width: 300px;
  margin-top: 0;
  text-align: center;
  width: 95%;
 }
 
 .FBI{
-  border: solid black .5px;
+
 }
 
 .FBI p{
@@ -170,7 +171,7 @@ font-family: Georgia;
 }
 
 .cats{
-  border: solid black .5px;
+
   background-image: url("images/img-story-1.png");
 }
 .cats p{
@@ -185,10 +186,10 @@ font-family: Georgia;
 
 
 .cookie{
-  border: solid black .5px;
+
 }
 .bites{
-  border: solid black .5px;
+
 }
 
 .bites p{
@@ -197,5 +198,19 @@ font-family: Georgia;
   color: black;
 }
 .box{
-  border: solid black .5px;
+
+}
+
+.stories{
+  display: flex;
+  justify-content: space-between;
+  height: 565px;
+  width: 630px;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  height: 565px;
+  width: 300px;
 }
