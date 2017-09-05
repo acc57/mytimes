@@ -23,6 +23,7 @@
 display: inline-block;
 align-content: flex-end;
 margin-right: 25px;
+text-decoration: underline;
 }
 
 /* Main Content */
@@ -188,9 +189,7 @@ font-family: Georgia;
 .cookie{
 
 }
-.bites{
 
-}
 
 .bites p{
   font-family: Georgia;
@@ -213,4 +212,47 @@ font-family: Georgia;
   flex-direction: column;
   height: 565px;
   width: 300px;
+}
+
+.newsbites h3{
+  font-size: 16px;
+font-weight: bold;
+text-align: center;
+}
+
+.bites{
+background-color: WhiteSmoke;
+font-family: Verdana;
+font-size: 12px;
+color: DimGray;
+flex-direction: column;
+display: flex;
+border-bottom: black solid 1px;
+padding: 11px 20px;
+}
+
+/* Footer */
+
+.footer{
+  background-color: MediumAquamarine;
+ margin: auto;
+ font-family: Verdana;
+ font-size: 12px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ height: 325px;
+ text-align: left;
+}
+
+.mytimes{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.sections{
+
 }
